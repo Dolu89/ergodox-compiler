@@ -10,3 +10,7 @@ RUN git clone https://github.com/dolu89/ergodox-firmware.git firmware
 RUN cd /firmware/src
 
 VOLUME /keymap
+
+COPY start.sh /
+
+CMD [ "./start.sh" ]
