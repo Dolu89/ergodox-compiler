@@ -11,3 +11,5 @@ If you have your keymap files in ~/myKeymap folder, follow this command
 ```
 docker run -v ~/myKeymap:/keymap lcourtois/ergodox-compiler
 ```
+
+It will be generate 2 files in ~/myKeymap : firmware.hex and firmware.eep
